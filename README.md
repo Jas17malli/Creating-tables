@@ -11,7 +11,17 @@ Task 1 :Database Setup and Schema Design.
  3.Create tables using CREATE TABLE
  4.Define primary and foreign keys
 
- Outcome: A well-structured schem
+ Outcome: A well-structured schema
+
+create table Person(
+Person_id int Primary Key,
+Name varchar(100));
+
+create table Passport(
+Passport_id int Primary key,
+Issue_date Date,
+Person_id int,
+FOREIGN key (person_id) REFERENCES  Person(Person_id));
 
 CREATE TABLE Customer (
   customer_id   INT PRIMARY KEY,
