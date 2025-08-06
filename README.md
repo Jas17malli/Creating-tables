@@ -11,7 +11,7 @@ Task 1 :Database Setup and Schema Design.
  3.Create tables using CREATE TABLE
  4.Define primary and foreign keys
 
- Outcome:   A wel-structured schema
+ Outcome: A well-structured schem
 
 CREATE TABLE Customer (
   customer_id   INT PRIMARY KEY,
