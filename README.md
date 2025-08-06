@@ -1,5 +1,18 @@
 # Creating-tables
 
+Task 1 :Database Setup and Schema Design.
+
+ Objective:  Learn to create databases, tables, and define relationships.
+ Deliverables:  SQL script to create schema and ER diagram.
+
+ Hints/Mini Guide:
+ 1.Choose a domain (e.g., Library, E-commerce)
+ 2.Identify entities and relationships
+ 3.Create tables using CREATE TABLE
+ 4.Define primary and foreign keys
+
+ Outcome:   A wel-structured schema
+
 CREATE TABLE Customer (
   customer_id   INT PRIMARY KEY,
   name          VARCHAR(255) NOT NULL,
